@@ -1,0 +1,91 @@
+ *{
+    
+    padding: 0;
+}
+
+#head{
+    text-align: center;
+    font-size: xx-large;
+    
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 20;
+    font-stretch: expanded ;
+    padding: 5px;
+    
+}
+#cal{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-column-span: 5px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.clac{
+    border-left: 15px;
+    border-style: solid;
+    box-shadow: 10px;
+    
+}
+#in{
+    
+    padding-top: 5px;
+    color: white;
+   border-radius: 20px;
+   text-align: justify;
+   align-content: center
+}
+
+h1{
+    padding-bottom: 5px;
+}
+label{
+    padding-left: 4em;
+    font-size: larger;
+}
+select{
+    
+    box-sizing: border-box;
+    block-size: 2em;
+    inline-size: 15em;
+}
+#submit{
+   
+   padding-right: 5px;
+   background-color: aqua;
+   font-size: x-large
+   
+}
+button{
+    block-size: 2em;
+    margin: 12px;
+    padding-left: 20px;
+   
+}
+#bottom{
+    border-radius: 20px;
+    margin: 2em;
+}
+#head1{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgba(190, 23, 23, 0.986);
+    color: aliceblue;
+    font-size: xx-large;
+    text-align: center;
+}
+#reset{
+    background-color: rgb(156, 26, 26);
+    color: aliceblue;
+    font-weight: 400;
+    padding-right: 2em;
+    
+}
+
+
+
+    
