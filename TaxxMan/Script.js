@@ -43,6 +43,3 @@ function calculate(){
     document.getElementById("total").value=tax+surcharge+cess;
 
 }
-function clear(){
-    document.getElementsByTagName("input").value=" ";
-}
